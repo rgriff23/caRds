@@ -12,7 +12,7 @@ If you have the `devtools` package installed, you can install `caRds` from GitHu
 
 ```
 library(devtools)
-install_github("caRds", username = "rgriff23")
+install_github("rgriff23/caRds")
 library(caRds)
 ```
 

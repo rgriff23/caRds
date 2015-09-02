@@ -1,9 +1,10 @@
 Package: caRds
-Title: caRds
-Description: Makes pretty caRds for special occasions
-Version: 1
+Title: A package for making caRds
+Version: 0.1
+Date: 2015-09-01
 Author: Randi Griffin <rgriff23@gmail.com>
 Maintainer: Randi Griffin <rgriff23@gmail.com>
-Depends: R (>= 3.2.0)
+Description: Makes pretty caRds for special occasions
+Depends: R (>= 3.0.0)
 License: MIT
-LazyData: true
+URL: https://github.com/rgriff23/caRds
