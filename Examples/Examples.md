@@ -15,7 +15,10 @@ OneThousandHearts(to = "Samara")
 Alternatively, you can use the `lines` arguments to include a personalized message up to 4 lines long:
 
 ```
-OneThousandHearts(line1 = "Roses are red", line2 = "Violets are blue", line3 = "If you were a Pokemon", line4 = "I would choose you!")
+OneThousandHearts(line1 = "Roses are red", 
+  line2 = "Violets are blue", 
+  line3 = "If you were a Pokemon", 
+  line4 = "I would choose you!")
 ```
 
 ![](./images/OneThousandHeartsPoem.png)
