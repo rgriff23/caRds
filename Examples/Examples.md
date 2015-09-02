@@ -10,7 +10,7 @@ ___
 OneThousandHearts(to = "Samara")
 ```
 
-![](./examples/OneThousandHearts.tiff)
+![](./images/OneThousandHearts.png)
 
 Alternatively, you can use the `lines` arguments to include a personalized message up to 4 lines long:
 
@@ -18,7 +18,7 @@ Alternatively, you can use the `lines` arguments to include a personalized messa
 OneThousandHearts(line1 = "Roses are red", line2 = "Violets are blue", line3 = "If you were a Pokemon", line4 = "I would choose you!")
 ```
 
-![](./examples/OneThousandHeartsPoem.tiff)
+![](./images/OneThousandHeartsPoem.png)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 ChristmasTree(from="Randi", to="Chase", numPresents=10)
 ```
 
-![](./examples/ChristmasTree.tiff)
+![](./images/ChristmasTree.png)
 
 Add tinsel with `tinsel = TRUE`. 
 
@@ -38,7 +38,7 @@ Add tinsel with `tinsel = TRUE`.
 ChristmasTree(from="Randi", to="Chase", numPresents=10, tinsel=TRUE)
 ```
 
-![](./examples/ChristmasTreeGaudy.tiff)
+![](./images/ChristmasTreeGaudy.png)
 
 ___
 
