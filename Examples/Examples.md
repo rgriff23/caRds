@@ -30,7 +30,7 @@ ___
 `ChristmasTree` generates a jolly tree with presents underneath:
 
 ```
-ChristmasTree(from="Randi", to="Chase", numPresents=10)
+ChristmasTree(from = "Randi", to = "Chase", numPresents = 10)
 ```
 
 ![](./images/ChristmasTree.png)
@@ -38,7 +38,7 @@ ChristmasTree(from="Randi", to="Chase", numPresents=10)
 Add tinsel with `tinsel = TRUE`. 
 
 ```
-ChristmasTree(from="Randi", to="Chase", numPresents=10, tinsel=TRUE)
+ChristmasTree(from = "Randi", to = "Chase", numPresents = 10, tinsel = TRUE)
 ```
 
 ![](./images/ChristmasTreeGaudy.png)
