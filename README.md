@@ -2,9 +2,7 @@
 
 ___
 
-This is a very important R package.
-
-Actually it's very silly, but I had these caRds lying around, and I decided to use them as an excuse to learn how to make R packages. I'm still having some issues getting this to the point where it installs...
+My first R package! This is just for fun. 
 
 ___
 
