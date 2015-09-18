@@ -18,6 +18,6 @@ library(caRds)
 
 ### Using caRds
 
-Check out `Examples.md` in the **Examples** folder.
+Check out `Examples.md` for examples.
 
 ___
