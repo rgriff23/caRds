@@ -2,7 +2,7 @@
 \alias{ChristmasTree}
 \title{Make a ChristmasTree caRd}
 \usage{
-ChristmasTree(from = NULL, to = NULL, numPresents = 5, tinsel = FALSE)
+ChristmasTree(from = NULL, to = NULL, numPresents = 7, tinsel = FALSE)
 }
 \description{
 Plots a jolly Christmas tree with presents underneath. 
