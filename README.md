@@ -18,6 +18,6 @@ library(caRds)
 
 ### Using caRds
 
-Check out `Examples.md` for examples.
+Check out my [website](http://rgriff23.github.io/projects/caRds.html) for some examples.
 
 ___
