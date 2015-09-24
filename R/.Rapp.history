@@ -1,0 +1,638 @@
+?ploygon
+?polygon
+?grid.cirvl
+?grid.circle
+plot(-3:3, -3,3, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+plot(-3:3, -3,3, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+plot(-3:3, -3:3, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+par(mar=c(2,2,2,2))
+plot(-3:3, -3:3, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+par(mar=c(4,4,4,4))
+plot(-3:3, -3:3, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+?text
+text(0, 2.7, "Happy Thanksgiving, eh?")
+text(0, 2.7, "Happy Thanksgiving, eh?", font=4)
+text(0, 2.7, "Happy Thanksgiving, eh?", font=4, cex=2)
+?points
+par(mar=c(4,4,4,4))
+plot(-3:3, -3:3, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+points(x_tail, y_tail)
+x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)
+y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)
+points(x_tail, y_tail)
+points(2*x_tail, 2*y_tail)
+par(mar=c(4,4,4,4))
+plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+points(2*x_tail, 2*y_tail)
+par(mar=c(4,4,4,4))
+plot(-3:3, -2:3.5, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+points(2*x_tail, 2*y_tail)
+plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+points(2*x_tail, 2*y_tail)
+text(0, 3, "Happy Thanksgiving, eh?", font=4)
+text(0, 3, "Happy Thanksgiving, eh?", font=4, cex=1.5)
+?mtext
+?polygons
+?polygon
+for (i in 1:8) {#
+		polygon(x=c(0, x_tail[i:i+1]), y=c(0, y_tail[i:i+1]))#
+	}
+par(mar=c(4,4,4,4))
+plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+points(2*x_tail, 2*y_tail)
+for (i in 1:8) {#
+		polygon(x=c(0, x_tail[i:i+1]), y=c(0, y_tail[i:i+1]))#
+	}
+for (i in 1:8) {#
+		polygon(x=c(0, x_tail[i:(i+1)]), y=c(0, y_tail[i:(i+1)]))#
+	}
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]))*2}
+c(0, y_tail[i:(i+1)]))*2
+c(0, x_tail[i:(i+1)])*2
+c(0, y_tail[i:(i+1)]))*2
+c(0, y_tail[i:(i+1)])*2
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)])*2}
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2)}
+polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2)
+)
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2))}
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2))}
+plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2))}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2))}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5))}
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="coral4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}
+from="Randi"
+to="Canada"
+canadian=TRUE
+if (!is.null(from)) {mtext(paste("From:", from))}#
+	if (!is.null(to)) {mtext(paste("To:", to), side=1)}
+if (!is.null(from)) {mtext(paste("From:", from), col="darkgrey")}
+if (!is.null(to)) {mtext(paste("To:", to), side=1, col="darkgrey4")}
+if (!is.null(to)) {mtext(paste("To:", to), side=1, col="darkgrey")}
+text(0, 3, "Happy Thanksgiving, eh?", font=4, cex=1.5)
+?mtext
+if (!is.null(from)) {mtext(paste("From:", from, line=1), col="darkgrey")}
+?mtext
+if (!is.null(to)) {mtext(paste("To:", to), side=1, col="darkgray")}
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}
+?symbols
+symbols(x=0, y=0, circles=1, bg="tan4")
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Turkey #
+	symbols(x=0, y=0, circles=1, bg="tan4")
+?symbols
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Turkey #
+	symbols(x=0, y=0, circles=1, bg="tan4", add=TRUE)
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Turkey #
+	symbols(x=0, y=0, circles=0.7, bg="tan4", add=TRUE)
+?symbols
+# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Turkey #
+	symbols(x=0, y=0, circles=0.7, bg="tan4", inches=FALSE,  add=TRUE)
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Turkey #
+	symbols(x=0, y=0, circles=1, bg="tan4", inches=FALSE,  add=TRUE)
+symbols(x=0, y=0, circles=0.9, bg="tan4", inches=FALSE,  add=TRUE)
+symbols(x=0, y=c(0,0.7), circles=c(0.9, 0.4), bg="tan4", inches=FALSE,  add=TRUE)
+symbols(x=c(0,0), y=c(0,0.7), circles=c(0.9, 0.4), bg="tan4", inches=FALSE,  add=TRUE)
+symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.1, 0.1), y=c(1.1,1.1), circles=c(0.1, 0.1), bg="white", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.2, 0.2), y=c(1.1,1.1), circles=c(0.1, 0.1), bg="white", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.2, 0.2), y=c(1.2,1.2), circles=c(0.2, 0.2), bg="white", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.2, 0.2), y=c(1.1,1.2), circles=c(0.2, 0.2), bg="white", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.2, 0.2), y=c(1.15,1.2), circles=c(0.2, 0.2), bg="white", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.2, 0.2), y=c(1.15,1.2), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)
+points(x=c(-0.2, 0.2), y=c(1.1,1.15))
+points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=22)
+points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)
+for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)
+polygon(x=c(-0.2, 0.2, 0), y=c(1,1,0.8), col="orangered")
+polygon(x=c(-0.2, 0.2, 0), y=c(0.7,0.7,0.4), col="orangered")
+polygon(x=c(-0.2, 0.2, 0), y=c(0.9,0.9,0.6), col="orangered")
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0), y=c(0.9,0.9,0.6), col="orangered")
+polygon(x=c(-0.2, 0.2, 0.1), y=c(0.9,0.9,0.6), col="orangered")
+polygon(x=c(-0.2, 0.2, 0.1), y=c(0.8,0.9,0.6), col="orangered")
+polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")
+?segments
+x_leg0 = c(0, 0, -0.5)#
+	y_leg0 = c(0, 0, -sqrt(3))#
+	x_leg1 = c(-0.5, 0.5, -0.7)#
+	y_leg1 = c(-sqrt(3), -sqrt(3), -sqrt(3))
+segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.7)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, )#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2)
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2)
+segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5, -0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.6)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.3)
+segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5, -0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)
+segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5, -0.5, -0.5, -0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)
+segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2+0.2, -sqrt(3)/2+0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+x_leg0 = c(0, 0, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)
+symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)
+symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)
+polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")
+symbols(0, -3, squares=6, col="green")
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	symbols(0, -3, squares=6, bg="green")
+par(mar=c(4,4,4,4))
+plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
+plot(-3:3, -2:4, type="n", xlab="", ylab="")
+?symbols
+symbols(0, -3, squares=3.5, bg="green")
+plot(-3:3, -2:4, type="n", xlab="", ylab="")
+symbols(0, -3, squares=6.5, bg="green", inches=FALSE, add=TRUE)
+symbols(0, -2, squares=6.5, bg="green", inches=FALSE, add=TRUE)
+symbols(0, 4, squares=8, bg="skyblue", inches=FALSE, add=TRUE)
+symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)
+symbols(0, 4, squares=8, bg="skyblue1", inches=FALSE, add=TRUE)
+# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")
+?symbols
+polygon(x=c(-0.5, -0.6, 0.3, 0.2), y=c(1, 1.1, 1.3, 1.4), col="black")
+polygon(x=c(-0.5, -0.5, 0.3, 0.4), y=c(1, 1.2, 1.3, 1.4), col="black")
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+		plot(-3:3, -2:4, type="n", xlab="", ylab="")#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	symbols(0, 4, squares=8, bg="skyblue1", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.5, -0.5, 0.3, 0.3), y=c(1, 1.2, 1.3, 1.5), col="black")
+polygon(x=c(-0.6, -0.5, 0.3, 0.3), y=c(1, 1.2, 1.3, 1.5), col="black")
+polygon(x=c(-0.6, -0.6, 0.3, 0.3), y=c(1.2, 1.4, 1.3, 1.5), col="black")
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+		plot(-3:3, -2:4, type="n", xlab="", ylab="")#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	symbols(0, 4, squares=8, bg="skyblue1", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.6, -0.6, 0.3, 0.3), y=c(1.2, 1.4, 1.6, 1.4), col="black")
+polygon(x=c(-0.6, -0.6, 0.4, 0.4), y=c(1.2, 1.4, 1.6, 1.4), col="black")
+par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+		plot(-3:3, -2:4, type="n", xlab="", ylab="")#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	symbols(0, 4, squares=8, bg="skyblue1", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.6, -0.6, 0.4, 0.4), y=c(1.2, 1.35, 1.55, 1.4), col="black")
+polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.8, 2, 1.55))
+polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.8, 2, 1.5))
+polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.8, 1.9, 1.5))
+polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.85, 1.9, 1.5))
+polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.85, 1.9, 1.5), col="black")
+points(-0.1, 1.45, col="gold", pch=0, cex=5)
+points(-0.1, 1.45, col="gold", pch=0)
+points(-0.1, 1.45, col="gold", pch=0, lwd=3)
+text(0, 3, "Happy Thanksgiving, eh?", font=4, cex=1.5)
+#####################################################################################################
+# Thanksgiving Day turkey#
+#####################################################################################################
+#
+TurkeyDay = function (from = NULL, to = NULL, canadian = FALSE) {#
+	# Tail fan coordinates#
+	x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	symbols(0, 4, squares=8, bg="skyblue1", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.6, -0.6, 0.4, 0.4), y=c(1.2, 1.35, 1.55, 1.4), col="black")#
+	polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.85, 1.9, 1.5), col="black")#
+	points(-0.1, 1.45, col="gold", pch=0, lwd=3)#
+	# Happy Thanksgiving!#
+	if (canadian == TRUE) {#
+		text(0, 3, "Happy Thanksgiving, eh?", font=4, cex=1.5)#
+	} else {text(0, 3, "Happy Thanksgiving!", font=4)}#
+	# From, to#
+	if (!is.null(from)) {mtext(paste("From:", from), col="darkgray")}#
+	if (!is.null(to)) {mtext(paste("To:", to), side=1, col="darkgray")}#
+}
+TurkeyDay(from="Randi", to="Canada", canadian=TRUE)
+#####################################################################################################
+# Thanksgiving Day turkey#
+#####################################################################################################
+#
+TurkeyDay = function (from = NULL, to = NULL, canadian = FALSE) {#
+	# Tail fan coordinates#
+	x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	symbols(0, 4, squares=8, bg="skyblue1", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.6, -0.6, 0.4, 0.4), y=c(1.2, 1.35, 1.55, 1.4), col="black")#
+	polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.85, 1.9, 1.5), col="black")#
+	points(-0.1, 1.45, col="gold", pch=0, lwd=3)#
+	# Happy Thanksgiving!#
+	if (canadian == TRUE) {#
+		text(0, 3, "Happy Thanksgiving, eh?", font=4, cex=1.5)#
+	} else {text(0, 3, "Happy Thanksgiving!", font=4)}#
+	# From, to#
+	if (!is.null(from)) {mtext(paste("From:", from), col="darkgray", font=4)}#
+	if (!is.null(to)) {mtext(paste("To:", to), side=1, col="darkgray", font=4)}#
+}
+TurkeyDay(from="Randi", to="Canada", canadian=TRUE)
+#####################################################################################################
+# Thanksgiving Day turkey#
+#####################################################################################################
+#
+TurkeyDay = function (from = NULL, to = NULL, canadian = FALSE) {#
+	# Tail fan coordinates#
+	x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	symbols(0, 4, squares=8, bg="skyblue1", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.6, -0.6, 0.4, 0.4), y=c(1.2, 1.35, 1.55, 1.4), col="black")#
+	polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.85, 1.9, 1.5), col="black")#
+	points(-0.1, 1.45, col="gold", pch=0, lwd=3)#
+	# Happy Thanksgiving!#
+	if (canadian == TRUE) {#
+		text(0, 3.5, "Happy Thanksgiving, eh?", font=4, cex=1.5)#
+	} else {text(0, 3.5, "Happy Thanksgiving!", font=4)}#
+	# From, to#
+	if (!is.null(from)) {mtext(paste("From", from), col="darkgray", font=4)}#
+	if (!is.null(to)) {mtext(paste("To", to), side=1, col="darkgray", font=4)}#
+}
+TurkeyDay(from="Randi", to="Canada", canadian=TRUE)
+#####################################################################################################
+# Thanksgiving Day turkey#
+#####################################################################################################
+#
+TurkeyDay = function (from = NULL, to = NULL, canadian = FALSE) {#
+	# Tail fan coordinates#
+	x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	symbols(0, 4, squares=16, bg="skyblue1", inches=FALSE, add=TRUE)#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.6, -0.6, 0.4, 0.4), y=c(1.2, 1.35, 1.55, 1.4), col="black")#
+	polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.85, 1.9, 1.5), col="black")#
+	points(-0.1, 1.45, col="gold", pch=0, lwd=3)#
+	# Happy Thanksgiving!#
+	if (canadian == TRUE) {#
+		text(0, 3.5, "Happy Thanksgiving, eh?", font=4, cex=1.5)#
+	} else {text(0, 3.5, "Happy Thanksgiving!", font=4)}#
+	# From, to#
+	if (!is.null(from)) {mtext(paste("From", from), col="darkgray", font=4)}#
+	if (!is.null(to)) {mtext(paste("To", to), side=1, col="darkgray", font=4)}#
+}
+TurkeyDay(from="Randi", to="Canada", canadian=TRUE)
+TurkeyDay(from="Randi", to="Canada", canadian=FALSE)
+TurkeyDay(from="Randi", to="America", canadian=FALSE)
+#####################################################################################################
+# Thanksgiving Day turkey#
+#####################################################################################################
+#
+TurkeyDay = function (from = NULL, to = NULL, canadian = FALSE) {#
+	# Tail fan coordinates#
+	x_tail = c(-sqrt(3)/2, -1, -sqrt(3)/2, -0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2)#
+	y_tail = c(-0.5, 0, 0.5, sqrt(3)/2, 1, sqrt(3)/2, 0.5, 0, -0.5)#
+	x_leg0 = c(0, 0, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5)#
+	y_leg0 = c(0, 0, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2)#
+	x_leg1 = c(-0.5, 0.5, -0.8, -0.7, -0.4, 0.8, 0.7, 0.4)#
+	y_leg1 = c(-sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2, -sqrt(3)/2, -sqrt(3)/2-0.2, -sqrt(3)/2-0.2)#
+	# Create canvas#
+	par(mar=c(4,4,4,4))#
+	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")#
+	symbols(0, 4, squares=16, bg="skyblue1", inches=FALSE, add=TRUE)#
+	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)#
+	# Tail feathers#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2, y=c(0, y_tail[i:(i+1)]*2), col="saddlebrown")}#
+	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*1.5, y=c(0, y_tail[i:(i+1)]*1.5), col="orange")}#
+	# Legs#
+	segments(x_leg0, y_leg0, x_leg1, y_leg1, col="orangered", lwd=3)#
+	# Body and head#
+	symbols(x=c(0,0), y=c(0,1), circles=c(0.9, 0.5), bg="tan4", inches=FALSE,  add=TRUE)#
+	# Eyes#
+	symbols(x=c(-0.2, 0.2), y=c(1.1,1.15), circles=c(0.2, 0.22), bg="white", inches=FALSE,  add=TRUE)#
+	points(x=c(-0.2, 0.2), y=c(1.1,1.15), pch=16)#
+	# Beak#
+	polygon(x=c(-0.2, 0.2, 0.1), y=c(0.85,0.9,0.6), col="orangered")#
+	# Hat#
+	polygon(x=c(-0.6, -0.6, 0.4, 0.4), y=c(1.2, 1.35, 1.55, 1.4), col="black")#
+	polygon(x=c(-0.4, -0.3, 0.1, 0.2), y=c(1.35, 1.85, 1.9, 1.5), col="black")#
+	points(-0.1, 1.45, col="gold", pch=0, lwd=3)#
+	# Happy Thanksgiving!#
+	if (canadian == TRUE) {#
+		text(0, 3.5, "Happy Thanksgiving, eh?", font=4, cex=1.5)#
+	} else {text(0, 3.5, "Happy Thanksgiving!", font=4, cex=1.5)}#
+	# From, to#
+	if (!is.null(from)) {mtext(paste("From", from), col="darkgray", font=4)}#
+	if (!is.null(to)) {mtext(paste("To", to), side=1, col="darkgray", font=4)}#
+}
+TurkeyDay(from="Randi", to="America", canadian=FALSE)
+library(devtools)
+install_github("rgriff23/caRds")
+library(caRds)
+?TurkeyDat
+?TurkeyDay
+TurkeyDay()

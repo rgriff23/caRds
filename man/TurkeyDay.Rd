@@ -10,7 +10,7 @@ Plots a Thanksgiving turkey.}
   \item{canadian}{is it Canadian Thanksgiving?}
 }
 \details{
-The optional arguments \code{from} and \code{to} specify the sender and recipient of the caRd, respectively. The caRd can be made for Canadian Thanksgiving by setting \code{canadian} to TRUE (defaults to FALSE).
+The optional arguments \code{from} and \code{to} specify the sender and recipient of the caRd, respectively. The caRd can be made for Canadians by setting \code{canadian} to TRUE (defaults to FALSE).
 }
 \author{
 Randi H. Griffin 

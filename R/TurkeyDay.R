@@ -17,7 +17,8 @@ TurkeyDay = function (from = NULL, to = NULL, canadian = FALSE) {
 	par(mar=c(4,4,4,4))
 	plot(-3:3, -2:4, type="n", xlab="", ylab="", xaxt="n", yaxt="n")
 	symbols(0, 4, squares=16, bg="skyblue1", inches=FALSE, add=TRUE)
-	symbols(0, -2, squares=6.5, bg="springgreen4", inches=FALSE, add=TRUE)
+	if (canadian == TRUE) {ground = "white"} else {ground = "springgreen4"}
+	symbols(0, -2, squares=6.5, bg=ground, inches=FALSE, add=TRUE)
 	
 	# Tail feathers
 	for (i in 1:8) {polygon(x=c(0, x_tail[i:(i+1)])*2.2, y=c(0, y_tail[i:(i+1)]*2.2), col="brown4")}
@@ -39,6 +40,9 @@ TurkeyDay = function (from = NULL, to = NULL, canadian = FALSE) {
 		
 	# Happy Thanksgiving!
 	if (canadian == TRUE) {
+		x_snow = runif(300, -3, 3)
+		y_snow = runif(300, -2, 4)
+		points(x_snow, y_snow, pch=16, cex=0.5, col="white")
 		text(0, 3.5, "Happy Thanksgiving, eh?", font=4, cex=1.5)
 	} else {text(0, 3.5, "Happy Thanksgiving!", font=4, cex=1.5)}
 	
