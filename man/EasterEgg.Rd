@@ -3,7 +3,7 @@
 \title{Make an Easter caRd}
 \usage{EasterEgg(from = NULL, to = NULL, shell = "aliceblue")}
 \description{
-Plots an Easter egg with a surprise inside.}
+Plots an Easter egg with a baby chicken inside.}
 \arguments{
   \item{from}{character string}
   \item{to}{character string}
