@@ -1,3 +1,4 @@
 export(ChristmasTree)
 export(OneThousandHearts)
 export(TurkeyDay)
+export(EasterEgg)
